@@ -1,6 +1,0 @@
-var createFontFamily = require('ttf-loader/lib/create-font-family');
-
-module.exports = createFontFamily({
-  ttf: export default "/fonts/LilitaOne-Regular.e2db0b3ec21c09d5c54916473c6bb999.ttf",
-  woff: export default "/fonts/LilitaOne-Regular.6390684f286d6df21a49d0c28ed62df1.woff",
-});
