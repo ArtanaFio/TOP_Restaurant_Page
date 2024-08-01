@@ -1,0 +1,25 @@
+{
+  "name": "top_restaurant_page",
+  "version": "1.0.0",
+  "description": "## Description Create a restaurant page using JavaScript to dynamically render a restaurant homepage. The website's content is generate entirely using JavaScript, with styling handled by an external CSS file, and webpack is used to bundle files.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack serve --open",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
