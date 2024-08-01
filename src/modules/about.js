@@ -9,6 +9,7 @@ export function createAboutComponents() {
     aboutSection.appendChild(aboutBox);
 
     const aboutHeader = document.createElement('h2');
+    aboutHeader.classList.add("cursive");
     aboutHeader.textContent = "About Us";
     aboutBox.appendChild(aboutHeader);
 

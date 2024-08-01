@@ -24,6 +24,7 @@ export function createHomeComponents() {
     lowerBox.appendChild(hourSection);
     
     const hoursHeader = document.createElement('h3');
+    hoursHeader.classList.add("cursive");
     hoursHeader.textContent = "Hours";
     hourSection.appendChild(hoursHeader);
 
@@ -69,6 +70,7 @@ export function createHomeComponents() {
     lowerBox.appendChild(contactSection);
 
     const contactHeader = document.createElement('h3');
+    contactHeader.classList.add("cursive");
     contactHeader.textContent = "Contact";
     contactSection.appendChild(contactHeader);
 
@@ -92,6 +94,7 @@ export function createHomeComponents() {
     lowerBox.appendChild(locationSection);
 
     const locationHeader = document.createElement('h3');
+    locationHeader.classList.add("cursive");
     locationHeader.textContent = "Location";
     locationSection.appendChild(locationHeader);
 

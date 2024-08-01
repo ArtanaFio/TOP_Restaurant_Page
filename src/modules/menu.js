@@ -4,6 +4,7 @@ export function createMenuComponents() {
     menuSection.classList.add("part");
 
     const menuHeader = document.createElement('h2');
+    menuHeader.classList.add("cursive");
     menuHeader.textContent = "Menu";
     menuSection.appendChild(menuHeader);
 
@@ -12,6 +13,7 @@ export function createMenuComponents() {
     menuSection.appendChild(appetizers);
 
     const appHeader = document.createElement('h3');
+    appHeader.classList.add("cursive");
     appHeader.textContent = "Appetizers";
     appetizers.appendChild(appHeader);
 
@@ -56,6 +58,7 @@ export function createMenuComponents() {
     menuSection.appendChild(salads);
 
     const saladHeader = document.createElement('h3');
+    saladHeader.classList.add("cursive");
     saladHeader.textContent= "Salads";
     salads.appendChild(saladHeader);
 
@@ -91,6 +94,7 @@ export function createMenuComponents() {
     menuSection.appendChild(soups);
 
     const soupsHeader = document.createElement('h3');
+    soupsHeader.classList.add("cursive");
     soupsHeader.textContent = "Soups";
     soups.appendChild(soupsHeader);
 
@@ -126,6 +130,7 @@ export function createMenuComponents() {
     menuSection.appendChild(entrees);
 
     const entreesHeader = document.createElement('h3');
+    entreesHeader.classList.add("cursive");
     entreesHeader.textContent = "Entrees";
     entrees.appendChild(entreesHeader);
 
@@ -197,6 +202,7 @@ export function createMenuComponents() {
     menuSection.appendChild(desserts);
 
     const dessertsHeader = document.createElement('h3');
+    dessertsHeader.classList.add("cursive");
     dessertsHeader.textContent = "Desserts";
     desserts.appendChild(dessertsHeader);
 
@@ -232,6 +238,7 @@ export function createMenuComponents() {
     menuSection.appendChild(beverages);
 
     const beveragesHeader = document.createElement('h3');
+    beveragesHeader.classList.add("cursive");
     beveragesHeader.textContent = "Beverages";
     beverages.appendChild(beveragesHeader);
 
