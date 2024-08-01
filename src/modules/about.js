@@ -1,4 +1,4 @@
-
+import familyImage from '../assets/images/family.jpg';
 
 export function createAboutComponents() {
     const aboutSection = document.createElement('div');
@@ -30,7 +30,7 @@ export function createAboutComponents() {
 
     const aboutImage = document.createElement('img');
     aboutImage.classList.add("about-image");
-    //aboutImage.src = Family;
+    aboutImage.src = familyImage;
     aboutImage.alt = "Photo of the Soetoro family, owners of Gado-Gado Grill";
     aboutBox.appendChild(aboutImage);
     

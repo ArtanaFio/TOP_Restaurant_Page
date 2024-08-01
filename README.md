@@ -24,9 +24,10 @@ TOP_Restaurant_Page/
 ├--node_modules/
 ├--src/
 |   ├--assets/
-|      ├--fonts
-|         ├--LilitaOne-Regular.ttf
-|      ├--images
+|      ├--fonts/
+|         ├--KaushanScript-Regular.ttf
+|         └--LilitaOne-Regular.ttf
+|      ├--images/
 |         ├--coconut-pancakes.jpg
 |         ├--family.jpg
 |         ├--fried-tofu.jpg
@@ -34,11 +35,17 @@ TOP_Restaurant_Page/
 |         ├--pineapple.jpg
 |         ├--salad.jpg
 |         ├--soto-ayam.jpg
-|         ├--waterfall.jpg
-|      ├--styles
-|         ├--main.css
+|         └--waterfall.jpg
+|      └--styles/
+|         └--main.css
+|   ├--modules/
+|      ├--about.js
+|      ├--faq.js
+|      ├--footer.js
+|      ├--home.js
+|      └--menu.js
 |   ├--index.js
-|   ├--index.html
+|   └--index.html
 ├--.gitignore
 ├--package.json
 ├--package-lock.json
