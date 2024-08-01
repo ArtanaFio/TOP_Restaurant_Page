@@ -1,0 +1,6 @@
+var createFontFamily = require('ttf-loader/lib/create-font-family');
+
+module.exports = createFontFamily({
+  ttf: export default "/fonts/KaushanScript-Regular.d1c993766c3429706bda359f04fe5dc8.ttf",
+  woff: export default "/fonts/KaushanScript-Regular.f44d996d783d4601af7b4efff4a398a0.woff",
+});

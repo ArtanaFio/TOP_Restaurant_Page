@@ -9,6 +9,7 @@ Create a restaurant page using JavaScript to dynamically render a restaurant hom
 - [Project Structure] (#project-structure)
 - [Project Setup] (#project-setup)
 - [Instructions] (#instructions)
+- [Deployment] (#deployment)
 - [Acknowledgments] (#acknowledgments)
 
 ## Technologies Used
@@ -71,9 +72,18 @@ TOP_Restaurant_Page/
     - Implement tab-switching logic in 'index.js' using event listeners for each button in the header navbar.
     - Each button click should clear the current contents of 'div#content' and load the appropriate module.
 
+## Deployment
+1. Follow the instructions to deploy your 'dist' directory to GitHub Pages.
+2. Add an npm script in 'package.json' to simplify the deployment process:
+    "scripts": {
+        "deploy": "git subtree push --prefix dist origin gh-pages"
+    }
+3. Run 'npm run deploy' to update the live preview.
+
 ## Acknowledgments
 - **Fonts:**
     - Lilita One, https://fonts.google.com/specimen/Lilita+One by Juan Montoreano
+    - Kaushan Script, https://fonts.google.com/specimen/Kaushan+Script by Impallari Type
 - **Photo credits:**
     - Photo by Ida Rizkha: https://www.pexels.com/photo/salad-with-fresh-vegetables-and-eggs-3008740/
 
